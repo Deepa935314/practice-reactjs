@@ -2,7 +2,7 @@
 // 2.Named Export and Import
 // 3.Mixed Export and Import
 
-const ExplainedImportExport = () => {
+ export const ExplainedImportExport = () => {
   
     const name = "nature lover ";
     const rating = "8.2";
@@ -11,7 +11,7 @@ const ExplainedImportExport = () => {
     return(
       <>
         <div>
-          <img src="nature.png" alt="nature" />
+          <img src="./images/nature.png" alt="nature-image" />
         </div>
         <h2>Name:{name}</h2>
         <h3>Rating:{rating}</h3>

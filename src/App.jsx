@@ -1,13 +1,15 @@
-import ExplainedImportExport from "./components/ExplainedImportExport"
+import {ExplainedImportExport} from "./components/ExplainedImportExport";
+import {NetflixSeries} from "./components/NetflixSeries";
 
 export const App = () => {
   return (
     <div>
-      <ExplainedImportExport/>
+      {/* <ExplainedImportExport/> */}
+      <NetflixSeries/>
     </div>
   );
 };
-export default ExplainedImportExport;
+
 
 // *getting code dynamic value using variables
 
